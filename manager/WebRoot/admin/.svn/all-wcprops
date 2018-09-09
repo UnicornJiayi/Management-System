@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pro/!svn/ver/44/manager/WebRoot/admin
+END
+addteacher.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/addteacher.jsp
+END
+deletework.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/deletework.jsp
+END
+workManageLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/workManageLeft.jsp
+END
+delectstudent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/delectstudent.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/index.jsp
+END
+studentManageLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/studentManageLeft.jsp
+END
+teacherManageLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/teacherManageLeft.jsp
+END
+selectpassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pro/!svn/ver/44/manager/WebRoot/admin/selectpassword.jsp
+END

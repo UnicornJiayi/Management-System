@@ -1,0 +1,99 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@taglib prefix="s" uri="/struts-tags"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>    
+    <title>平时作业管理系统</title>	 		
+    </SCRIPT>
+  </head>  
+  <body>
+    <table width="1000" border="1" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td height="300" colspan="2" background="image/title.jpg"></td>
+    </tr>
+    <tr height="700">
+    <td width="600">
+         <table width="600" height="700" cellspacing="0" cellpadding="0" border="1">
+         <tr height="40">
+         <td bgcolor="#90ee90"><b>今天是:<script language="javascript" >
+					var time=new Date();
+					var week=new Array("星期天","星期一","星期二","星期三","星期四","星期五","星期六");
+					var x=time.getMonth()+1;
+					var y=time.getDate();
+					var z=time.getDay();
+					var year=time.getFullYear()	;
+					document.write(year+"年 "+x+"月 "+y+"日 "+week[z]);
+					</script></b>
+         </td>
+         </tr>
+         <tr>
+         <td>网站信息</td>
+         </tr>                          
+         </table>
+    </td>
+    <td width="400">
+         <table width="400" height="700" cellspacing="0" cellpadding="0" border="1">
+         <tr height="40">
+         <td bgcolor="#f4a460"><b>用户登录</b></td>
+         </tr>
+         <tr height="300">
+         <td background="image/login.jpg"align="center">
+             <br><s:form theme="simple">
+	         <table>
+	         <caption align="top"><b>欢迎使用！</b></caption>
+	         <tr><td>&nbsp;</td><td>&nbsp;</td></tr>	         	          
+	         <tr><td><b>用户名：</b></td>
+	         <td><s:textfield name="username"/></td>
+	         </tr>
+	         <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+	         <tr><td><b>密码：</b></td>
+	         <td><s:password name="password"/></td>
+	         </tr>
+	         <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+	         <tr><td><b>身份：</b></td>
+<<<<<<< .mine
+	         <td><s:select list="{'学生','教师','管理员'}" name="user" id="user"></s:select></td>
+=======
+	         <td><select name="user" id="1">  
+			   <option value="1">学生</option> 
+			   <option value="2">老师</option>
+			   <option value="3">管理员</option>			  
+			 </select></td>
+>>>>>>> .r22
+	         </tr>
+	         <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+	         <tr>
+	         <td></td>
+	         <td><s:submit name="sub" value="登录"></s:submit><s:a href="#">注册用户</s:a>&nbsp;&nbsp;<s:a href="#">忘记密码？</s:a></td>
+	         </tr>                  
+	         </table>
+	         </s:form>
+	     </td>
+	     </tr>
+	     <tr height="40">
+         <td bgcolor="#f4a460"><b>管理员信息发布</b></td>
+         </tr>
+         <tr>
+         <td align="center" valign="top"><center><font color="#c71585" size="5"><b>亲爱的老师们，同学们你们好！</b></font></center></td>
+         </tr>
+         </table>
+    </td>
+    </tr>
+    <tr height="200">
+    <td colspan="2" bgcolor="#f0fif0">
+    <p align="center"><img alt="footer1" src="image/footer1.gif">
+    <img alt="footer2" src="image/footer2.gif">
+    <img alt="footer3" src="image/footer3.gif">
+    <img alt="footer4" src="image/footer4.gif">
+    <br>
+    <br>
+             联系我们：Java 2班 熊鑫 柴静宇    
+    <br>
+    <br>
+    ©2013 NetWork 豫ICP证888888号       
+    </p>
+    </td>
+    </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+/*论坛管理系统内容css*/
+
+.aFB_body{width:1200px;height:490px;overflow:hidden;}
+
+.aFB_b_left{float:left;width:15%;height:480px;overflow:auto;}
+.aFB_b_right{float:left;width:85%;height:480px;overflow:auto;}

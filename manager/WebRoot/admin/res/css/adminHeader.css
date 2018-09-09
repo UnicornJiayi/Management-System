@@ -1,0 +1,12 @@
+/*管理系统头部通用css*/
+.adminForumBody{margin:0px auto;width:1200px;background-color:rgb(242,242,242);}
+.aFB_head{width:100%;height:85px;background:rgb(16,44,74) url("../img/header_bg.png") repeat-x left;}
+.aFB_h_nav{width:100%;height:50px;text-align:left;}
+.aFB_h_logo{float:left;width:250px;height:49px;text-indent:-1000px;background:url("../img/logo.gif") no-repeat scroll 0% 0% transparent;}
+.aFB_h_nav ul{float:right;height:21px;}
+.aFB_h_nav ul li{float:left;height:21px;margin:4px 10px 0px 0px;}
+.aFB_h_navMenu{width:100%;height:35px;background:url("../img/menu.gif") repeat-x scroll 0px 0px transparent;}
+.aFB_h_navMenu ul{float:left;width:70%;height:100%;margin-left:5%;}
+.aFB_h_navMenu ul li{float:left;line-height:100%;margin-left:10px;}
+.aFB_h_navMenu ul li a{float:left;font-size:14px;line-height:35px;text-align:center;color:rgb(0,0,0);font-weight:bold;width:80px;}
+.aFB_h_navMenuLiSelected{border-radius:15px 15px 15px 15px;background:url("../img/menu.gif") no-repeat scroll 0px -150px transparent;}

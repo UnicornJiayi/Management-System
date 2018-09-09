@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pro/!svn/ver/62/manager/src/com/cx/action
+END
+UploadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pro/!svn/ver/62/manager/src/com/cx/action/UploadAction.java
+END
+UpdateWorkAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/UpdateWorkAction.java
+END
+DeleteWorkAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/DeleteWorkAction.java
+END
+ShowEverydayScoreAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/ShowEverydayScoreAction.java
+END
+StudentAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/StudentAction.java
+END
+LoginAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pro/!svn/ver/25/manager/src/com/cx/action/LoginAction.java
+END
+everydayworkAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pro/!svn/ver/49/manager/src/com/cx/action/everydayworkAction.java
+END
+ScoreAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/ScoreAction.java
+END
+TeacherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pro/!svn/ver/41/manager/src/com/cx/action/TeacherAction.java
+END
+StudentWork.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pro/!svn/ver/62/manager/src/com/cx/action/StudentWork.java
+END
+RegistAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pro/!svn/ver/21/manager/src/com/cx/action/RegistAction.java
+END
+SelectNoWorkAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pro/!svn/ver/35/manager/src/com/cx/action/SelectNoWorkAction.java
+END

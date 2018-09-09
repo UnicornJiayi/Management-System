@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<package name="index" extends="struts-default">
+		 <!-- 验证学号是否可用 -->
+		 <action name="snocheck" class="com.cx.action.RegistAction" method="studentSnoCheck">
+		 	<result name="d" >/index.jsp</result>
+		 </action>
+		 
+		 <!-- 注册 -->
+		 <action name="regist" class="com.cx.action.RegistAction" method="studentRegist">
+		 	<result name="success">/index.jsp</result>
+		 </action>
+		 
+		 <!-- 登陆 -->
+		 <action name="login" class="com.cx.action.LoginAction">
+		 	<result name="student" type="redirect">/student/studentmanage.jsp</result>
+		 	<result name="teacher" type="redirect">/teacher/teachermanage.jsp</result>
+		 	<result name="admin">/test.jsp</result>
+		 	<result name="error">/index.jsp</result>
+		 </action>
+	</package>
+	
+	<package name="teacher" extends="struts-default" namespace="/teacher">
+	<!-- 发表作业 -->
+		<action name="everydaywork" class="com.cx.action.everydayworkAction" method="everydaywork"> 
+			<result name="success" type="redirect">/teacher/teachermanage.jsp</result>
+		</action>
+		<!-- 得到所有的平时作业 -->
+		<action name="getAllarrangeWork" class="com.cx.action.everydayworkAction" method="getAllarrangeWork">
+			<result name="success">/teacher/updatework.jsp</result>
+		</action>
+		<!-- 修改作业 -->
+		<action name="update" class="com.cx.action.UpdateWorkAction">
+		<result name="success" type="redirect">/teacher/teachermanage.jsp</result>
+		</action>
+	</package>
+	
+	
+	
+	<!-- 文件上传 -->
+	<package name="upload" extends="struts-default">
+	   <action name="upload" class="com.cx.action.UploadAction">
+	      <param name="savePath">/upload/work/work</param>	      
+	      <result type="redirect">/upload/succ.jsp</result>
+	   </action>
+	</package>
+	
+	<!-- 学生查询作业 -->
+	<package name="studentwork" extends="struts-default">
+	   <action name="select" class="com.cx.action.StudentWork">	      	      
+	      <result type="redirect">/student/studentgrade.jsp</result>
+	   </action>
+	</package>
+</struts>

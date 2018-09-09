@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pro/!svn/ver/62/manager/src/com/cx/dao
+END
+TeacherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pro/!svn/ver/59/manager/src/com/cx/dao/TeacherDao.java
+END
+ArrangeWorkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pro/!svn/ver/59/manager/src/com/cx/dao/ArrangeWorkDao.java
+END
+WorkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pro/!svn/ver/62/manager/src/com/cx/dao/WorkDao.java
+END
+StudentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pro/!svn/ver/59/manager/src/com/cx/dao/StudentDao.java
+END
+AdminDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pro/!svn/ver/26/manager/src/com/cx/dao/AdminDao.java
+END

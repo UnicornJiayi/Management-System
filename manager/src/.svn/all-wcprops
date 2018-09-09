@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/pro/!svn/ver/62/manager/src
+END
+mysql.properties
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pro/!svn/ver/9/manager/src/mysql.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pro/!svn/ver/62/manager/src/struts.xml
+END
+fckeditor.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pro/!svn/ver/6/manager/src/fckeditor.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pro/!svn/ver/9/manager/src/applicationContext.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pro/!svn/ver/62/manager/src/com/cx/service
+END
+ArrangeWorkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pro/!svn/ver/38/manager/src/com/cx/service/ArrangeWorkService.java
+END
+WorkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pro/!svn/ver/62/manager/src/com/cx/service/WorkService.java
+END
+StudentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pro/!svn/ver/43/manager/src/com/cx/service/StudentService.java
+END
+AdminService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pro/!svn/ver/28/manager/src/com/cx/service/AdminService.java
+END
+TeacherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pro/!svn/ver/43/manager/src/com/cx/service/TeacherService.java
+END
